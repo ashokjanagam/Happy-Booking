@@ -5,7 +5,7 @@ import { FooterComponent } from './footer/footer.component';
 import { MenuComponent } from './menu/menu.component';
 import { OffersComponent } from './offers/offers.component';
 import { RoombookingComponent } from './roombooking/roombooking.component';
-import {SharedModule} from "../shared/shared.module";
+import { SharedModule } from "../shared/shared.module";
 
 @NgModule({
   imports: [
