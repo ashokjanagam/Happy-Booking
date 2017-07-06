@@ -1,4 +1,6 @@
-  menu works!
-  <div  class="menu-content" *ngFor = "let item of menuItems">
-    <a [routerLink]="item.link" [attr.route]="item.link" title="{{item.text}}" > {{item.text}}</a>
-</div>
+<ul class="menu-content" *ngFor = "let item of menuItems">
+  <li>
+    <a [routerLink]="item.link" title="{{item.text}}" > {{item.text}}</a>
+  </li>
+</ul>
+
