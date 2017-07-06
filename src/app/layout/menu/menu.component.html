@@ -1,0 +1,6 @@
+<ul class="menu-content" *ngFor = "let item of menuItems">
+  <li>
+    <a [routerLink]="item.link" title="{{item.text}}" > {{item.text}}</a>
+  </li>
+</ul>
+
